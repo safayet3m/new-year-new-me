@@ -1,11 +1,9 @@
-
-
 .banner-headding {
     color: #FFF;
     text-align: right;
     font-size: 65px;
     font-weight: 700;
- 
+
     margin-bottom: 25px;
 }
 
@@ -15,9 +13,10 @@
     font-weight: 400;
     line-height: 25px;
     color: #FFF;
-   
+
 }
-.btn-colour{
+
+.btn-colour {
     text-align: right;
     font-size: 20px;
     font-weight: 600;
@@ -28,12 +27,156 @@
 
 }
 
-header{
+header {
     background-image: url('../images/images/banner/banner3.png');
     background-repeat: no-repeat;
     width: 1600px;
     height: 800px;
 }
-.banner-contrainar{
+
+.banner-contrainar {
     padding: 216px 230px 160px 845px;
+}
+
+.up-main-contrainar {
+    display: flex;
+    padding: 140px 320px 0px 200px;
+    justify-content: space-between;
+}
+
+.up-main-text-continar {
+    margin-top: 300px;
+    margin-left: 150px;
+}
+
+.up-main-text-heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.up-main-trxt-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 16px;
+}
+
+ul>li {
+    margin-bottom: 10px;
+    color: #444343;
+}
+
+.mid-headding {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 100px;
+}
+
+.my-plans-contrainar {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 200px 0px 200px;
+}
+
+.mid-my-plans-hreadding {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.mid-my-plans-item {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+    margin-top: 16px;
+
+}
+
+.main-footer-contrinar {
+    background-image: url('../images/images/gradient1.png'), url('../images/images/watch.png');
+
+    background-repeat: no-repeat;
+    margin: 135px 230px 130px 230px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+.mid-footer-item{
+    padding: 60px 620px 60px 65px;
+
+
+}
+.main-footer-headding{
+    margin-bottom: 25px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+footer{
+    background-color: #151414;
+}
+.footer-part{
+    display: flex;
+    padding: 130px 200px ;
+    justify-content: space-around;
+    color: #FFF;
+    gap: 50px;
+}
+.footer-collam{
+    width: 50%;
+}
+.footer-headding{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-contact{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.footer-subscribe-headding{
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-input-item{
+    display: block;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 325px;
+    height: 50px;
+    border-radius: 8px;
+    border: solid;
+}
+.footer-Subscribe-btn{
+    width: 200.106px;
+    height: 64px;
+    border-radius: 8px;
+    background:#005FAC ;
+    margin-top:  16px;
+    color: #FFF;
+}
+.footer-emall{
+    display: block;
+
+    padding: 21px 22px;
+    background: #151414;
+    color:white ;
 }
